@@ -1,0 +1,53 @@
+
+<style>
+/* 아이디와 같이 사용 */
+#member .form{}
+#member .form{border:0px solid red;}
+
+.form{border:1px solid red; text-decoration:none}
+
+.form.test.aaa{}
+
+span.class{}
+
+.form div{}
+.form div.a{}
+.form div.b{}
+
+.form ul li{}
+.form h1{}
+.form p{}
+
+
+</style>
+
+
+<h1>문서 제목</h1>
+<p>문서 내용</p>
+
+<div id="member">
+	<div class="form test aaa" >
+		test
+	</div>
+</div>
+
+
+<div class="form">
+	<ul>
+		<li>
+			<h1>제목</h1>
+			<p>내용</p>
+			<span>날짜</span>
+			<i>특이사항</i>
+		</li>
+	</ul>
+
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+

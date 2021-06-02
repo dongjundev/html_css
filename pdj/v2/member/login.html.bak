@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Light - 로그인</title>
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery-ui.min.js"></script>
+
+<script src="../js/swiper.min.js"></script>
+<link rel="stylesheet" href="../js/swiper.min.css">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+
+<!-- 상단 헤더 -->
+<div class="header">
+	<div>
+		<div class="logo">
+			<h1><a href="../index.html"><img src="../img/logo_w.png"></a></h1>
+		</div>
+
+		<div class="top-btn">
+			<ul>
+				<li><a href="../member/login.html">로그인</a></li>
+				<li><a href="../member/join.html">회원가입</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="login-box">
+	
+	<h1>로그인</h1>
+	
+	<div class="login">
+		<ul>
+			<li>
+				<input type="text" placeholder="아이디">
+			</li>
+			<li>
+				<input type="password" placeholder="비밀번호">
+			</li>
+			<li>
+				<button>로그인</button>
+			</li>
+		</ul>
+	</div>
+
+	<div class="login-btn">
+		<a href="#none">회원가입</a>
+	</div>
+
+
+</div>
+
+
+
+
+<!-- 하단정보 -->
+<div class="footer">
+	<div>
+		<h1>Light</h1>
+		<p>대구 동구 동내로 70</p>
+		<p>대표자 : 조덕환</p>
+		<p>이메일 : ofwhan@naver.com</p>
+		<p>연락처 : 010-1234-5678</p>
+		<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

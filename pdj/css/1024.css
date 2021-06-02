@@ -1,0 +1,167 @@
+
+.header{background: #000; overflow:hidden;}
+.header .logo h1 img{ width: 80px;}
+.header .top-btn ul{margin-top: 5px;}
+.header .logo h1 {
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.m-menu{display: block;}
+.m-menu{position: absolute; right:10px; top:56px; z-index:9999; }
+.m-menu a{display: block; width:25px; height:20px; position:relative;}
+.m-menu a span{width:100%; height:3px; background: #000; display: block; position: absolute; transition: all 0.3s; left:0;}
+.m-menu a span:nth-child(1){top:0px;}
+.m-menu a span:nth-child(2){top:8px;}
+.m-menu a span:nth-child(3){bottom:0px;}
+
+.m-menu a.active span:nth-child(1){
+	    transform: rotate(-45deg) translateY(12px); left: -8px;
+}
+
+.m-menu a.active span:nth-child(2){opacity: 0;}
+
+.m-menu a.active span:nth-child(3) {
+		transform: rotate(45deg) translateY(-12px); left: -7px;
+}
+
+.menu{position: fixed; z-index: 9999; left: -100%; width: 100%; max-width:200px; height: 100%; transition: all 0.3s;}
+
+.menu > div > ul > li a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 10px;
+    color: #000;
+	border-bottom:1px solid #e1e1e1;
+}
+
+.menu > div > ul > li {
+    display: block;
+}
+
+.menu > div > ul > li > ul.submenu {
+    position: relative;
+    background: #f6f6ff;;
+    border: 0px solid #ccc;
+}
+
+.menu > div > ul > li ul.submenu a{
+	font-size: 12px;
+}
+
+.banner .swiper-container {
+    height: auto;
+}
+
+.bbs-box > div > .board-box {
+    float: none;
+    width: auto;
+}
+
+.bbs-box > div > .right-banner {
+    float: none;
+    width: auto;
+}
+
+html.active .menu{left:0%;}
+
+.notice-table ul li > div.no {
+    width: 13%;
+}
+
+.notice-table ul li > div.subject {
+    width: 47%;
+}
+
+.contents {
+    padding: 10px;
+}
+
+.gallery-table > ul > li {
+    width: 50%;
+}
+
+.gallery-table > ul > li:nth-child(5n+1) {
+    clear: unset;
+}
+
+.booking-table .thum {
+    width: auto;
+	float: none;
+}
+
+.booking-table .info {
+    width: auto;
+	float: none;
+}
+
+.booking-table .thum a {
+    max-height: none;
+}
+
+.booking-view .photo-box .view-photo {
+    float: none;
+    width: auto;
+    height: auto;
+}
+
+.booking-view .photo-box .calendar {
+    float: none;
+    width: auto;
+    height: auto;
+}
+
+/* .mypage-list ul.table-hd {
+    display: none;
+}
+
+.mypage-list ul li {
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+	background: #fff;
+}
+
+.mypage-list {
+    background: none;
+}
+
+.mypage-list ul li {
+    overflow: hidden;
+}
+
+.mypage-list ul li > div {
+    display: block;
+    border-bottom: 0px solid #ccc;
+	float: left;
+}
+
+.mypage-list ul li > div.no {
+	width: 15%;
+}
+
+.mypage-list ul li > div.subject {
+	width: 85%;
+}
+
+.mypage-list ul li > div.state {
+    width: 15%;
+}
+
+.mypage-list ul li > div.date {
+    width: auto;
+}
+
+.mypage-list ul li > div.date:before{content:"등록일 : "; color: #888;}
+
+.mypage-list ul li > div.r-date {
+    width: auto;
+}
+
+.mypage-list ul li > div.r-date:before{content:"예약일 : "; color: #888;} */
+
+.gallery-table > ul > li {
+    width: 33.33%;
+}

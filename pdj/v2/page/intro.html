@@ -1,0 +1,52 @@
+<?php include('../sub_header.php');?>
+
+<style>
+.section{}
+#fullpage{}
+#section0{
+background: url('https://image5jvqbd.fmkorea.com/files/attach/new/20180421/486616/169549519/1025913529/9cb81f1a4b87e39c05d8a7e64edf4e67.jpg');
+background-size:cover;
+background-position:center;
+}
+.section01-box{text-align: center; color:#fff;}
+.section01-box h2{font-size:50px;}
+.section01-box p{font-size:30px;}
+#section1{background: url('https://image5jvqbd.fmkorea.com/files/attach/new/20180421/486616/169549519/1025913529/588ae956742764705ed667a458fe5bf2.jpg'); background-size:cover; background-position:center;}
+#section2{background: url('http://file.instiz.net/data/file/20121116/9/e/e/9ee3da59aad26f246144a86c17728557'); background-size:cover; background-position:center;}
+
+#section1 .youtube{text-align:center;}
+
+.header.fixed{position: fixed; top:0; left:0; width: 100%; z-index:9999;}
+.menu{position: fixed; top:75px; left:0; width: 100%; z-index:9999;}
+
+</style>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="section01-box">
+			<h2>안녕하세요</h2>
+			<p>반갑습니다</p>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="youtube">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/qiCVPpI9l3M?mute=1" frameborder="0" allowfullscreen data-autoplay></iframe>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        scrollBar: true
+    });
+</script>
+
+
+
+<?php include('../sub_footer.php');?>

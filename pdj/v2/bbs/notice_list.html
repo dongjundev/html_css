@@ -1,0 +1,59 @@
+<?php include('../sub_header.php');?>
+
+<div class="notice-wrap">
+	<div class="notice-box">
+		<h1>공지사항 리스트</h1>
+		<div class="search-box">
+				<input type="text">
+				<button>검색</button>
+		</div>
+		<div class="notice-table">
+			<div class="notice-table">
+				<ul class="table-hd">
+					<li>
+						<div class="no">번호</div>
+						<div class="subject">제목</div>
+						<div class="name">글쓴이</div>
+						<div class="date">등록일</div>
+					</li>
+				</ul>
+				<ul class="table-bd">
+					<li>
+						<div class="no">3</div>
+						<div class="subject"><a href="./notice_view.html">안녕하세요</a></div>
+						<div class="name">드록바</div>
+						<div class="date">2020-01-01</div>
+					</li>
+					<li>
+						<div class="no">2</div>
+						<div class="subject"><a href="./notice_view.html">테스트 입니다</a></div>
+						<div class="name">드록바</div>
+						<div class="date">2020-01-01</div>
+					</li>
+					<li>
+						<div class="no">1</div>
+						<div class="subject"><a href="./notice_view.html">123</a></div>
+						<div class="name">드록바</div>
+						<div class="date">2020-01-01</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="paging">
+				<ul>
+					<li><a href="#none">처음으로</a></li>
+					<li><a href="#none">이전</a></li>
+					<li class="on"><a href="#none">1</a></li>
+					<li><a href="#none">2</a></li>
+					<li><a href="#none">3</a></li>
+					<li><a href="#none">다음</a></li>
+					<li><a href="#none">마지막</a></li>
+				</ul>
+		</div>
+		<div class="bbs-btn-box">
+				<a href="../bbs/notice_write.html">글쓰기</a>
+		</div>
+	</div>
+</div>
+
+<?php include('../sub_footer.php');?>

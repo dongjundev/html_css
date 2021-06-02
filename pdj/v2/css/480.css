@@ -1,0 +1,100 @@
+.header{background: #000; overflow:hidden;}
+.header .logo h1 img{ width: 35px;}
+.header .top-btn ul{margin-top: 5px;}
+.header .logo h1 {
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.m-menu{display: block;}
+.m-menu{position: fixed; right:10px; top:70px; z-index:9999; }
+.m-menu a{display: block; width:25px; height:20px; position:relative;}
+.m-menu a span{width:100%; height:3px; background: #fff; display: block; position: absolute; transition: all 0.3s; left:0;}
+.m-menu a span:nth-child(1){top:0px;}
+.m-menu a span:nth-child(2){top:8px;}
+.m-menu a span:nth-child(3){bottom:0px;}
+
+.m-menu a.active span:nth-child(1){
+	    transform: rotate(-45deg) translateY(12px); left: -8px;
+}
+
+.m-menu a.active span:nth-child(2){opacity: 0;}
+
+.m-menu a.active span:nth-child(3) {
+		transform: rotate(45deg) translateY(-12px); left: -7px;
+}
+
+.menu{position: fixed; z-index: 9999; left: -100%; width: 100%; max-width:200px; height: 100%; transition: all 0.3s;}
+
+.menu > div > ul > li a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 10px;
+    color: #000;
+	border-bottom:1px solid #e1e1e1;
+}
+
+.menu > div > ul > li {
+    display: block;
+}
+
+.menu > div > ul > li > ul.submenu {
+    position: relative;
+    background: #f6f6ff;;
+    border: 0px solid #ccc;
+}
+
+.menu > div > ul > li ul.submenu a{
+	font-size: 12px;
+}
+
+html.active .menu{left:0%;}
+
+.numbers-wrap .numbers .num-data ul li {
+    width: 80%;
+    margin: 30px 25px;
+}
+
+.slide-banner .swiper-slide img {
+    max-height: 70px;
+}
+
+.main-gallery li {
+    width: 100%;
+}
+
+.menu {
+    background: #001489;
+}
+
+.menu > div > ul > li a {
+    color: #fff;
+}
+
+.footer {
+    background: #000;
+}
+
+.menu > div > ul > li > ul.submenu {
+    background: #408fff;
+}
+
+.menu > div > ul > li a:hover {
+    color: #ff2e2e;
+}
+
+.header.fixed{position: fixed; top:0; left:0; width: 100%; z-index:9999;}
+
+.gallery-table > ul > li:nth-child(3n+1) {
+    clear: unset;
+}
+
+.gallery-table > ul > li:nth-child(2n+1) {
+    clear: both;
+}
+
+.gallery-table > ul > li {
+    width: 50%;
+}

@@ -1,0 +1,214 @@
+<?php include('./header.php');?>
+
+
+<!-- 모바일 메뉴 -->
+<div class="m-menu">
+	<div>
+		<a href="#none">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+</div>
+
+<script>
+	$('.m-menu a').click( 
+	function(){
+		$(this).toggleClass('active');
+		$('html').toggleClass('active');
+		}
+	)
+</script>
+
+
+<div class="contents">
+<!-- 내용 출력 -->
+	
+	<!-- 메인 비주얼 -->
+	<div class="main-visual">
+		<h2 data-aos="fade-up" data-aos-delay="100">CHELSEA FC</h2>
+		<p data-aos="fade-up" data-aos-delay="300">
+			<span>BLUE is the Colour</span>
+			<!--	<span>챔스우승 가즈아~!</span> -->
+		</p>
+	</div>
+
+	<div class="numbers-wrap">
+		<div class="numbers">
+			<h2>CLUB INFORMATION</h2>
+			<div class="num-data">
+				<p data-aos="flip-up" data-aos-delay="100">Chelsea FC</p>
+				<ul>
+					<li data-aos="flip-up" data-aos-delay="100">
+						<p>The Blues</p>
+						<span>Nickname</span>
+					</li>
+					<li data-aos="flip-up" data-aos-delay="100">
+						<p>1905</p>
+						<span>Formed</span>
+					</li>
+					<li data-aos="flip-up" data-aos-delay="100">
+						<p>40,834</p>
+						<span>Stadium Capacity</span>
+					</li>
+					<li data-aos="flip-up" data-aos-delay="100">
+						<p>103 x 67 metres</p>
+						<span>Pitch</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="slide-banner">
+		<h2>MACHES</h2>
+	<!--	Swiper	-->
+	  <div class="swiper-container">
+		<div class="swiper-wrapper">
+		  <div class="swiper-slide"><img src="./img/score01.JPG"></div>
+		  <div class="swiper-slide"><img src="./img/score02.JPG"></div>
+		  <div class="swiper-slide"><img src="./img/score03.JPG"></div>
+		  <div class="swiper-slide"><img src="./img/score05.JPG"></div>
+		  <div class="swiper-slide"><img src="./img/score06.JPG"></div>
+		</div>
+	<!--	Add Pagination	-->
+	    <div class="swiper-pagination"></div>
+	<!--	Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	  </div>
+	
+	<!--  Initialize Swiper	-->
+	  <script>
+		var swiper = new Swiper('.swiper-container', {
+		  autoHeight: true,
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
+		  pagination: {
+			el: '.swiper-pagination',
+		  },
+		  autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		  },
+		});
+	  </script>
+	</div>
+
+
+ <div class="main-gallery-wrap">
+	<div class="m-g-box">
+		<h2>GALLERY</h2>
+
+
+
+		<div class="main-gallery">
+			<ul>
+				<li data-aos="zoom-in" data-aos-delay="100">
+					<div>
+						<div class="thum">
+							<a href="#none">
+								<img src="./img/gallery01.JPG">
+							</a>
+						</div>
+						<div class="info">
+							<a href="#none">
+								<h3>게시물 제목</h3>
+								<p>게시물 내용 출력 부분</p>
+								<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li data-aos="zoom-in" data-aos-delay="100">
+					<div>
+						<div class="thum">
+							<a href="#none">
+								<img src="./img/gallery02.jpg">
+							</a>
+						</div>
+						<div class="info">
+							<a href="#none">
+								<h3>게시물 제목</h3>
+								<p>게시물 내용 출력 부분</p>
+								<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li data-aos="zoom-in" data-aos-delay="100">
+					<div>
+						<div class="thum">
+							<a href="#none">
+								<img src="./img/gallery03.JPG">
+							</a>
+						</div>
+						<div class="info">
+							<a href="#none">
+								<h3>게시물 제목</h3>
+								<p>게시물 내용 출력 부분</p>
+								<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li data-aos="zoom-in" data-aos-delay="100">
+					<div>
+						<div class="thum">
+							<a href="#none">
+								<img src="./img/gallery04.JPG">
+							</a>
+						</div>
+						<div class="info">
+							<a href="#none">
+								<h3>게시물 제목</h3>
+								<p>게시물 내용 출력 부분</p>
+								<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li data-aos="zoom-in" data-aos-delay="100">
+					<div>
+						<div class="thum">
+							<a href="#none">
+								<img src="./img/gallery05.JPG">
+							</a>
+						</div>
+						<div class="info">
+							<a href="#none">
+								<h3>게시물 제목</h3>
+								<p>게시물 내용 출력 부분</p>
+								<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li data-aos="zoom-in" data-aos-delay="100">
+					<div>
+						<div class="thum">
+							<a href="#none">
+								<img src="./img/gallery06.JPG">
+							</a>
+						</div>
+						<div class="info">
+							<a href="#none">
+								<h3>게시물 제목</h3>
+								<p>게시물 내용 출력 부분</p>
+								<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+ </div>
+
+</div>
+
+<?php include('./footer.php');?>

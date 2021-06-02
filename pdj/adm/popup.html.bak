@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Light - 게시판 관리</title>
+		<script src="../js/jquery-1.12.4.min.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+		<link rel="stylesheet" href="../js/swiper.min.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+<body>
+
+
+
+<!-- 상단 헤더 -->
+<div class="header">
+	<div>
+		<div class="logo">
+			<h1><a href="../index.html"><img src="../img/logo_w.png"></a></h1>
+		</div>
+
+		<div class="top-btn">
+			<ul>
+				<!-- 관리자일 경우
+				<li><a href="../adm/set.html">관리자</a></li>
+				-->
+				<li><a href="../member/login.html">로그인</a></li>
+				<li><a href="../member/join.html">회원가입</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 관리자 메뉴 -->
+<div class="adm-menu">
+	<ul>
+		<li><a href="./set.html">환경설정</a></li>
+		<li><a href="./board.html">게시판 관리</a></li>
+		<li><a href="./member.html">회원 관리</a></li>
+		<li class="on"><a href="./popup.html">팝업 관리</a></li>
+		<li><a href="./banner.html">배너 관리</a></li>
+		<li><a href="./booking.html">장소 관리</a></li>
+	</ul>
+</div>
+
+
+
+<!-- contents 시작-->
+<div class="adm-contents">
+		
+	<div class="adm-board">
+		<div class="adm-board-box">
+			<h1>팝업 관리</h1>
+
+			<div class="search-box">
+				<input type="text">
+				<button>검색</button>
+			</div>
+
+
+			<div class="adm-popup">
+				<ul class="table-hd">
+					<li>
+						<div class="no">번호</div>
+						<div class="subject">팝업명</div>
+						<div class="s-date">사용기간</div>
+						<div class="use">사용여부</div>
+						<div class="date">등록일</div>
+						<div class="set-btn">관리</div>
+					</li>
+				</ul>
+
+				<ul class="table-bd">
+					<li>
+						<div class="no">1</div>
+						<div class="subject">이벤트 팝업</div>
+						<div class="s-date">2021.04.22 ~ 2021.04.23</div>
+						<div class="use">사용</div>
+						<div class="date">2021.04.22</div>
+						<div class="set-btn">
+							<a href="./popup_form.html">수정</a>
+							<a href="#none">삭제</a>							
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="paging">
+				<ul>
+					<li><a href="#none">처음으로</a></li>
+					<li><a href="#none">이전</a></li>
+					<li class="on"><a href="#none">1</a></li>
+					<li><a href="#none">2</a></li>
+					<li><a href="#none">3</a></li>
+					<li><a href="#none">다음</a></li>
+					<li><a href="#none">마지막</a></li>
+				</ul>
+			</div>
+
+			<div class="bbs-btn-box">
+				<a href="./popup_form.html">팝업 생성</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //contents 끝 -->
+
+
+<!-- 하단정보 -->
+<div class="footer">
+	<div>
+		<h1>Light</h1>
+		<p>대구 동구 동내로 70</p>
+		<p>대표자 : 조덕환</p>
+		<p>이메일 : ofwhan@naver.com</p>
+		<p>연락처 : 010-1234-5678</p>
+		<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+

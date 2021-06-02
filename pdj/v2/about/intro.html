@@ -1,0 +1,149 @@
+<!-- 헤더  인클루드 -->
+<?php include('../sub_header.php');?>
+
+
+<style>
+/* 게시판 리스트 */
+/* .notice-table{background: #fff;}
+.notice-table ul.table-hd{text-align: center; border-top: 2px solid #000;}
+.notice-table ul.table-bd{text-align: center;}
+.notice-table ul.table-bd .subject{text-align: left;}
+.notice-table ul li{display: table; width: 100%;}
+.notice-table ul li > div{display: table-cell; border-bottom: 1px solid #ccc; padding:10px;}
+.notice-table ul li > div.no{width:10%}
+.notice-table ul li > div.subject{width: 50%;}
+.notice-table ul li > div.subject a{font-weight:bold; font-size:14px;}
+.notice-table ul li > div.subject a:hover{text-decoration:underline; color: #26649e;}
+.notice-table ul li > div.name{width:20%}
+.notice-table ul li > div.date{width: 20%;} */
+.about_wrap{background:#fff;}
+.h_tit {
+    position: relative;
+    margin-bottom: 45px;
+    padding-bottom: 24px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+	font-weight: normal;
+}
+.h_tit::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -49px;
+    width: 98px;
+    height: 2px;
+    background: #bfc4cc;
+}
+.about_wrap {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+.about_wrap .info{margin: 0 auto; max-width: 1200px;}
+.about_wrap .info .img img{width: 100%}
+.img {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+}
+img{border: 0 none;}
+
+.company_wrap {
+	padding: 80px 0 30px 0;
+}
+
+.company_wrap .info .text{font-size: 1.125rem; padding: 30px 20px;}
+.company_wrap .info .text p b{font-weight:700;}
+
+.trophys_wrap {
+    margin-top: 90px;
+    padding: 80px 0 104px 0;
+    background: #f0f0f0;
+}
+.trophys_wrap .cont{
+	margin: 0 auto;
+    max-width: 1200px;
+}
+.sponsors_wrap {
+    padding: 80px 0 104px 0;
+}
+
+.sponsors_wrap .cont {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+</style>
+
+
+<!-- contents 시작-->
+
+
+<div class="about_wrap">
+	<div class="company_wrap">
+		<h4 class="h_tit">COMPANY</h4>
+		<div class="info">
+			<span class="img">
+				<img src="../img/pic.JPG" alt="">
+			</span>
+			<div class="text">
+				<p>
+					<b>Address</b>
+					<br>
+					Stamford Bridge, Fulham Road, London, SW6 1HS<br><br>
+				</p>
+
+				<p>
+					Nickname : The Blues<br>
+					Formed : 1905<br>
+					Stadium Capacity : 40,834<br>
+					Pitch : 103 x 67 metres<br><br>
+				</p>
+
+				<p>
+					<b>Here to help</b>
+					<br>
+					General Enquiries - UK: 0371 811 1955 | INT: +44 20 7386 9373 (Mon-Fri, 8:30am-5pm) <br><br>
+				</p>
+
+				<p>
+					<b>Ticket Enquiries</b>
+					<br>
+					Telephone - UK: 0371 811 1905 | INT: +44 207 835 6000 (Mon-Fri, 9:15am-5pm) <br><br>
+				</p>
+
+				<p>
+					<b>Training Ground</b>
+					<br>The training ground is located near Cobham in Surrey but sessions are not open to the general public.  Instead special open days are<br> occasionally organised at Stamford Bridge where fans can see the team train.
+
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="trophys_wrap">
+		<h4 class="h_tit">TROPHY CABINET</h4>
+		<div class="cont">
+			<span class="img">
+				<img src="../img/trophy.png" alt="">
+			</span>
+		</div>
+	</div>
+
+	<div class="sponsors_wrap">
+		<h4 class="h_tit">PARTNERS</h4>
+		<div class="cont">
+			<span class="img">
+				<img src="../img/sponsors.JPG" alt="">
+			</span>
+		</div>
+	</div>
+</div>
+
+
+<!-- // contents 끝 -->
+
+
+<?php include('../sub_footer.php');?>

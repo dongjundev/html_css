@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Light - 배너 관리</title>
+		<script src="../js/jquery-1.12.4.min.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+		<link rel="stylesheet" href="../js/swiper.min.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+<body>
+
+
+
+<!-- 상단 헤더 -->
+<div class="header">
+	<div>
+		<div class="logo">
+			<h1><a href="../index.html"><img src="../img/logo_w.png"></a></h1>
+		</div>
+
+		<div class="top-btn">
+			<ul>
+				<!-- 관리자일 경우
+				<li><a href="../adm/set.html">관리자</a></li>
+				-->
+				<li><a href="../member/login.html">로그인</a></li>
+				<li><a href="../member/join.html">회원가입</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 관리자 메뉴 -->
+<div class="adm-menu">
+	<ul>
+		<li><a href="./set.html">환경설정</a></li>
+		<li><a href="./board.html">게시판 관리</a></li>
+		<li><a href="./member.html">회원 관리</a></li>
+		<li><a href="./popup.html">팝업 관리</a></li>
+		<li class="on"><a href="./banner.html">배너 관리</a></li>
+		<li><a href="./booking.html">장소 관리</a></li>
+	</ul>
+</div>
+
+<!-- contents 시작-->
+<div class="adm-contents">
+	<div class="adm-board">
+		<div class="adm-board-box">
+			<h1>배너 생성<!-- 수정 --> </h1>
+			<div class="write-form">
+				<ul>
+					<li>
+						<label for="">배너명</label>
+						<input type="text">
+					</li>
+					<li>
+						<label for="">첨부파일</label>
+						<input type="file">
+					</li>
+
+					<li class="s-date-input">
+						<label for="">사용기간</label>
+						<input type="text" placeholder="시작일"> ~ <input type="text" placeholder="종료일">
+					</li>
+					<li>
+						<label for="">위치</label>
+						<select name="" id="">
+							<option value="">상단</option>
+							<option value="">하단</option>
+						</select>
+					</li>
+					<li class="chk-box">
+						<label for="">사용여부</label>
+						<input type="checkbox" id="check-notice"> <label for="check-notice" class="check-txt">체크시 사용</label>
+					</li>
+				</ul>
+			</div>
+			<div class="bbs-btn-box write-f-btn">
+				<a href="#none">이전</a>
+				<a href="#none">저장</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //contents 끝 -->
+
+
+<!-- 하단정보 -->
+<div class="footer">
+	<div>
+		<h1>Light</h1>
+		<p>대구 동구 동내로 70</p>
+		<p>대표자 : 조덕환</p>
+		<p>이메일 : ofwhan@naver.com</p>
+		<p>연락처 : 010-1234-5678</p>
+		<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
